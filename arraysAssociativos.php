@@ -2,24 +2,19 @@
 
 // array associativo é quando atribuimos valores dentro de um array (chave => valor)
 
-$conta1 = [
-  
+$conta1 = [  
   'titular' => 'Lucas',
   'saldo' => 198.76
-
 ];
 
 $conta2 = [
   'titular' => 'Maria',
   'saldo' => 789.99
-
-
 ];
 
 $conta3 = [
   'titular' => 'Tatiane',
   'saldo' => 1200
-
 ];
 
 $teste = [$conta1,$conta2,$conta3];

@@ -36,8 +36,8 @@ foreach ($contasCorrentes as $contas){
 }
 
 
-// tambem é possivel percorer atraves dos indices
-
+// tambem é possivel percorer atraves dos indices[chaves]
+// estou associando o $cpf como nomes das minhas chaves
 foreach($contasCorrentes as $cpf =>$contas){
   echo $cpf . " " . $contas['titular'] . PHP_EOL;
 
